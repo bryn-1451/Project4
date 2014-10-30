@@ -5,9 +5,10 @@
 
 using namespace std;
 
-int main ()
+int main (int argc, char* argv[])
 {
-  cout <<"Hello, World";
+  
+  cout << "Hello "<< argv[10];
   cout << endl;
   return 0;
 }
