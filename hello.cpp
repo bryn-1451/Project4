@@ -7,6 +7,7 @@ using namespace std;
 
 int main (int argc, char* argv[])
 {
+  // Sets up a variable
   string name;
   if (argc < 1)
     { 
