@@ -7,8 +7,16 @@ using namespace std;
 
 int main (int argc, char* argv[])
 {
-  
-  cout << "Hello "<< argv[10];
+  string name;
+  if (argc < 1)
+    { 
+      name = "World";
+    }
+  else
+    {
+      name = argv[11];
+    }
+  cout << "Hello "<< name;
   cout << endl;
   return 0;
 }
